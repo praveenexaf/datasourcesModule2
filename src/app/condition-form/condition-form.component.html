@@ -1,0 +1,27 @@
+<form [formGroup]="_form">
+  <fieldset>
+    <div style="display:flex;align-items:center;font-size:14px;justify-content:flex-start" class="my-1">
+      <div class="input-group mx-2">
+        <span class="input-group-text" style="font-size:14px" id="">Parent</span>
+        <input
+          formControlName="parent"
+          type="text"
+          class="form-control form-control-sm"
+          placeholder="column"
+        />
+      </div>
+      <div class="input-group mx-2">
+        <span class="input-group-text" style="font-size:14px" id="">Child</span>
+        <input
+          formControlName="child"
+          type="text"
+          class="form-control form-control-sm"
+          placeholder="column"
+        />
+      </div>
+      <Button class="btn btn-danger" (click)="remove.emit()"
+        >Delete</Button
+      >
+    </div>
+  </fieldset>
+</form>

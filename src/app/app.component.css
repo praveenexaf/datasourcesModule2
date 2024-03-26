@@ -1,0 +1,154 @@
+p {
+  font-family: Lato;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* .mat-card-container{
+  overflow:auto;
+} */
+
+.node-button {
+  background:none;
+  border:none;
+  color:white;
+  padding:3px;
+  min-width:100px;
+
+}
+.node-view-button {
+  background:none;
+  border:none;
+  border-left:1px solid white;
+  color:white;
+  padding:3px
+}
+.node-add-button {
+  background:none;
+  border:none;
+  border-left:1px solid white;
+  color:white;
+  padding:3px
+}
+
+.node-del-button {
+  background:none;
+  border:none;
+  padding:3px;
+  border-left:1px solid white;
+  color:white
+}
+
+.nested-node{
+  padding-left:30px
+}
+
+.leaf-node {
+  padding-left: 60px;
+}
+.mat-tree-node {
+  padding: 0;
+  background-color: white;
+}
+
+.mat-nested-tree-node {
+  /* top: -24px; */
+}
+
+ul,li {
+  list-style: none;
+  margin:0;
+  padding:0
+}
+
+li.tree-container {
+  padding-top:20px;
+  border-bottom:0;
+}
+
+li.tree-container.root-node {
+  border-bottom:0;
+  /* background-color: red; */
+  border:0px;
+  /* top:0; */
+  left:0;
+  /* position:absolute; */
+  margin:0;
+  padding:0
+}
+
+li.leaf-node.root-node {
+  border-bottom:0;
+  border:0px;
+  /* top:0; */
+  left:0;
+  /* position:absolute; */
+  margin:0;
+  padding:0
+}
+
+ul {
+  padding-left:40px;
+}
+
+li {
+  /* padding-left: 40px; */
+  /* border:1px dotted grey; */
+  /* border-width: 0 0 1px 1px; */
+  /* position: relative;
+  top:-24px */
+}
+
+li.mat-tree-node,
+li div {
+  margin:0;
+  /* position:relative; */
+  /* top:24px */
+}
+li ul {
+  /* border-top: 1px dotted grey; */
+  /* margin-left: -40px; */
+  padding-left: 60px;
+}
+
+.mat-nested-tree-node:last-child ul {
+  /* border-left: 1px solid white; */
+  /* margin-left: -41px; */
+}
+.mat-icon-button {
+  z-index: 100;
+}
+
+.node-name {
+  background-color: #085b99;
+  color: white;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+
+}
+
+.setBorder{
+  border-bottom: 1px solid black;
+  width: 22px;
+  height: 0px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.borderMain{
+  border-left: 1px solid black;
+}
+
+.btn{
+  font-size:14px
+}
+
+.btn.btn-primary{
+  background:#085b99;
+
+}
+
